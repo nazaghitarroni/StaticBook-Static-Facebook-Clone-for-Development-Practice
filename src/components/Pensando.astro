@@ -1,0 +1,20 @@
+---
+import User from "../icons/User.astro";
+---
+
+
+<form  name="pensamiento"  class="flex flex-col  shadow-md w-2/3 mx-auto bg-white rounded-xl " >
+    <div class="flex items-center w-3/3 gap-2  w-full pl-8 pt-3">
+        <User />
+        <label for="pensamiento" class="w-full">
+            <input id="pensamiento" name="pensamiento" class="bg-gray-100 h-10 rounded-3xl px-3 w-11/12" type="text"  placeholder="¿Que estas pensando, Usuario?">
+        </label>
+    </div>
+
+    <hr class="w-11/12 my-2">
+
+    <div class="flex gap-2  text-center justify-center w-full min-h-12 items-center  ">
+        <a href="" class="w-2/5  hover:bg-gray-200 h-8  flex items-center justify-center rounded-lg">Video en directo</a>
+        <a href="" class="w-2/5  hover:bg-gray-200 h-8 flex items-center justify-center rounded-lg ">Foto/Video</a>
+    </div>
+</form>

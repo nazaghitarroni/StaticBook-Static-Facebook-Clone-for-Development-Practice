@@ -1,0 +1,90 @@
+---
+import NavMenu from './NavMenu.astro'
+import FacebookLogo from '../icons/FacebookLogo.astro'
+import Casita from '../icons/Casita.astro'
+import Tele from '../icons/Tele.astro'
+import Tienda from '../icons/Tienda.astro'
+import Juegos from '../icons/Juegos.astro'
+import MenuCuadros from '../icons/MenuCuadros.astro'
+---
+
+<header class="">
+<nav class="flex flex-row justify-between h-14  shadow-md px-2 w-screen">
+
+    <form name="entrada" class=" flex flex-row items-center w-1/2 md:w-1/3">
+        
+        
+        <NavMenu href='/'>
+            <FacebookLogo class="w-12" />
+        </NavMenu>
+
+        <label for="entrada" >
+            <input type="text" id="entrada" name="entrada" class="border-2 rounded-2xl p-1 w-full  bg-gray-200  md:w-3/4 lg:w-full text-black  text-opacity-100" placeholder="Search Facebook">
+        </label>
+    </form>
+
+    <div class="md:flex items-center w-1/3  hidden">
+        <ul class="flex flex-row mx-auto items-center">
+
+            <li>
+                <div class="hover:bg-[#F2F2F2]   md:flex md:px-1  rounded-lg lg:px-5 ">
+                <NavMenu href='/'>
+                    <Casita class="size-10 p-1" />
+                </NavMenu>
+                </div>
+            </li>
+            <li>
+                <div class="hover:bg-[#F2F2F2]  md:flex md:px-1  rounded-lg lg:px-5">
+                    <NavMenu href='/'>
+                        <Tele class="size-10 p-1" />
+                    </NavMenu>
+                </div>
+            </li>
+            <li>
+                <div class="hover:bg-[#F2F2F2]  md:flex md:px-1  rounded-lg lg:px-5">
+                    <NavMenu href='/'>
+                        <Tienda class="size-10 p-1" />
+                    </NavMenu>
+                </div>
+            </li>
+            <li>
+                <div class="hover:bg-[#F2F2F2]  md:flex md:px-1  rounded-lg lg:px-5">
+                    <NavMenu href='/'>
+                        <Juegos class="size-10 p-1" />
+                    </NavMenu>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="flex flex-row items-center justify-end  w-1/2 md:w-1/3 ">
+        <NavMenu href="/">
+            <div class="bg-gray-200 rounded-full size-10 flex justify-center items-center hover:brightness-90">
+            <MenuCuadros class="size-6 " />
+        </div>
+        </NavMenu>
+
+        <NavMenu href="/">
+            <div class="bg-gray-200 rounded-full size-10 flex justify-center items-center hover:brightness-90">
+                <MenuCuadros class="size-6 " />
+            </div>
+        </NavMenu>
+
+        <NavMenu href="/">
+            <div class="bg-gray-200 rounded-full size-10 flex justify-center items-center hover:brightness-90">
+                <MenuCuadros class="size-6 " />
+            </div>
+        </NavMenu>
+
+        <select name="perfil" id="perfilLogin" class="aspect-square w-9 flex border-2 border-black  rounded-full">
+            <option value=""></option>
+            <option value="">Configuracion y privacidad</option>
+            <option value="">Ayuda y asistencia</option>
+            <option value="">Pantalla y accesibilidad</option>
+            <option value="">Enviar comentarios</option>
+            <option value="">Cerrar sesion</option>
+
+        </select>
+    </div>
+</nav>
+</header>
