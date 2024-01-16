@@ -2,4 +2,4 @@
 
 #NOT FINISHED
 #HTML, CSS, TailwindCss, Astro y JavaScript-
-![image](https://github.com/nazaghitarroni/StaticBook-Static-Facebook-Clone-for-Development-Practice/assets/108306291/3ed18462-9c50-46c3-8559-83be9045f26d)
+![FacebookClone](https://github.com/nazaghitarroni/StaticBook-Static-Facebook-Clone-for-Development-Practice/assets/108306291/98a40a98-9659-425c-868b-46965e39f420)
